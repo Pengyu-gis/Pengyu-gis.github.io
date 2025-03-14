@@ -45,7 +45,10 @@ key: page-about
 </style>
 
 Contact:
-• [Email](mailto:pengyuc@email.sc.edu) • [Location](https://www.google.com/maps/place/Columbia,+SC,+USA) 
+• Email: pengyuc@email.sc.edu • Location: Columbia, SC, USA 
+
+<br>
+Social account:
 • [GitHub](https://github.com/Pengyu-gis) • [LinkedIn](https://www.linkedin.com/in/pengyu-chen-a07973181/)
 
     
