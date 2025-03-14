@@ -35,11 +35,11 @@ key: page-Publications
 
 Working Paper:
 1. <span class="publication-title">Intelligent Bear Prevention System Based on Computer Vision and IoT: a New Approach to Reduce Human-Bear Conflicts</span> <BR>
-*First Author*
+*First Author* | Under Review
 
 2. <span  class="publication-title">Sound, Space, and Sentiment: Understanding the Association of Urban Soundscapes and Perceptions</span> <BR>
-*First Author*
+*First Author* | AAG conference
 
 3. <span  class="publication-title">Rooftop Detection from Historical Aerial Imagery Using Deep Learning in Downtown Charleston, SC</span><BR> 
-*First Author*
+*First Author* | Submitted on Arxiv
 
