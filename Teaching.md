@@ -23,7 +23,7 @@ key: page-Teaching
   "If you want to master something, teach it. The more you teach, the better you learn." --Feynman
 </div>
 
-### Landform Geography | GEOG 201 | 2024 fall 
+### Landform Geography | GEOG 201 | 2024 fall & 2025 Spring
 *As Lab Instructor*
 - Lab 2 Maps and Mapping: [PDF Slides](/Teaching_slides/Maps_and_Mapping.pdf)
 - Lab 3 Minerals and Rocks: [PDF Slides](Teaching_slides/GEOG201_2024_Rocks.pdf)
