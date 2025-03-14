@@ -44,12 +44,14 @@ key: page-about
     }
 </style>
 
-Contact:
-• Email: pengyuc@email.sc.edu • Location: Columbia, SC, USA 
+#### Contact:
+• Email: pengyuc@email.sc.edu <br>
+• Location: Columbia, SC, USA 
 
-<br>
-Social account:
-• [GitHub](https://github.com/Pengyu-gis) • [LinkedIn](https://www.linkedin.com/in/pengyu-chen-a07973181/)
+
+#### Social Account:
+• [GitHub](https://github.com/Pengyu-gis) <br>
+• [LinkedIn](https://www.linkedin.com/in/pengyu-chen-a07973181/)
 
     
 ## Curriculum vitae:
