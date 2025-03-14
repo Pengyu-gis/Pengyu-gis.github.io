@@ -44,10 +44,10 @@ key: page-about
     }
 </style>
 
-- Email: [pengyuc@email.sc.edu](mailto:pengyuc@email.sc.edu)
-- Location: Columbia, SC, USA
-- Website: [pengyu-gis.github.io](https://pengyu-gis.github.io/)
-- GitHub: [Pengyu-gis](https://github.com/Pengyu-gis)
+Contact:
+• [Email](mailto:pengyuc@email.sc.edu) • [Location](https://www.google.com/maps/place/Columbia,+SC,+USA) 
+• [GitHub](https://github.com/Pengyu-gis) • [LinkedIn](https://www.linkedin.com/in/pengyu-chen-a07973181/)
+
     
 ## Curriculum vitae:
 Here is the PDF version: [PengyuCHEN Résumé](/Pengyu-CV.pdf)
@@ -153,5 +153,3 @@ Here is the PDF version: [PengyuCHEN Résumé](/Pengyu-CV.pdf)
         </div>
     </div>
 </div>
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=4iB7KkCGReQ-3k9eMOT6V6IWgO9ny8Fre9biQEf2NSg&cl=ffffff&w=a"></script>
