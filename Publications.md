@@ -34,6 +34,9 @@ key: page-Publications
    [DOI: 10.1088/1755-1315/1011/1/012044](https://doi.org/10.1088/1755-1315/1011/1/012044)
 
 Working Paper:
+
+3/29/2025 Comments Off on I promise to upload arxiv preprints next month. I promise. Two of them are under review.
+
 1. <span class="publication-title">Intelligent Bear Prevention System Based on Computer Vision and IoT: a New Approach to Reduce Human-Bear Conflicts</span> <BR>
 *First Author* | Under Review
 
