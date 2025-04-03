@@ -33,16 +33,23 @@ key: page-Publications
    <span class="publication-date">November 2022</span>  
    [DOI: 10.1088/1755-1315/1011/1/012044](https://doi.org/10.1088/1755-1315/1011/1/012044)
 
+Preprint:
+
+1.   <span class="publication-title">A GAN-Enhanced Deep Learning Framework for Rooftop Detection from Historical Aerial Imagery</span>  
+  <span class="publication-authors"><strong>Pengyu Chen</strong>, Sicheng Wang, Cheng Wang, Shiyu Wang, Bo Huang, Liangliang Huang, Zhenhong Zang</span>  
+  <span class="publication-date">March 2025</span>  
+  [arXiv:2503.23200](https://arxiv.org/abs/2503.23200)
+
+2.  <span class="publication-title">Intelligent Bear Prevention System Based on Computer Vision: An Approach to Reduce Human-Bear Conflicts in the Tibetan Plateau Area, China</span>  
+  <span class="publication-authors"><strong>Pengyu Chen</strong>, Fei Teng, Yuhan Du, Jiahui Yi, Yufei Li, John A. Kupfer</span>  
+  <span class="publication-date">March 2025</span>  
+  [arXiv:2503.23178](https://arxiv.org/abs/2503.23178)
+
+
+
 Working Paper:
 
-3/29/2025 Comments Off on I promise to upload arxiv preprints next month. I promise. Two of them are under review.
-
-1. <span class="publication-title">Intelligent Bear Prevention System Based on Computer Vision and IoT: a New Approach to Reduce Human-Bear Conflicts</span> <BR>
-*First Author* | Under Review
-
-2. <span  class="publication-title">Sound, Space, and Sentiment: Understanding the Association of Urban Soundscapes and Perceptions</span> <BR>
+<span  class="publication-title">Sound, Space, and Sentiment: Understanding the Association of Urban Soundscapes and Perceptions</span> <BR>
 *First Author* | AAG conference
 
-3. <span  class="publication-title">Rooftop Detection from Historical Aerial Imagery Using Deep Learning in Downtown Charleston, SC</span><BR> 
-*First Author* | Submitted on Arxiv
 
