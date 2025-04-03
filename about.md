@@ -158,6 +158,3 @@ Here is the PDF version: [PengyuCHEN Résumé](/Pengyu-CV.pdf)
         </div>
     </div>
 </div>
-
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=358&t=n&d=4iB7KkCGReQ-3k9eMOT6V6IWgO9ny8Fre9biQEf2NSg&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
