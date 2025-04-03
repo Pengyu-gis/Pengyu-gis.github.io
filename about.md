@@ -77,6 +77,7 @@ Here is the PDF version: [PengyuCHEN Résumé](/Pengyu-CV.pdf)
             <h3>B.S. in Geographic Information Science</h3>
             <p><strong>Wuhan University of Technology</strong> | Sept 2020 – June 2024</p>
             <p>Thesis: <em>Transformer-based geographic scene description</em></p>
+            <p>Advisor: <a href="https://baike.baidu.com/item/%E5%B4%94%E5%B7%8D/7542643">Prof. Wei Cui</a></p>
         </div>
     </div>
 </div>
