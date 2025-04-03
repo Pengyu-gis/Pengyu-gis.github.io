@@ -44,7 +44,7 @@ key: page-about
     }
 </style>
 
-#### Contact:
+#### Pengyu Chen | 陈鹏宇
 • Email: pengyuc@email.sc.edu <br>
 • Location: Columbia, SC, USA 
 
