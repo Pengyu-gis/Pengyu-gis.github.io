@@ -36,7 +36,7 @@ key: page-Publications
 Preprint:
 
 1.   <span class="publication-title">A GAN-Enhanced Deep Learning Framework for Rooftop Detection from Historical Aerial Imagery</span>  
-  <span class="publication-authors"><strong>Pengyu Chen</strong>, Sicheng Wang, Cheng Wang, Shiyu Wang, Bo Huang, Liangliang Huang, Zhenhong Zang</span>  
+  <span class="publication-authors"><strong>Pengyu Chen</strong>, Sicheng Wang, Cuizhen Wang, Senrong Wang, Beiao Huang, Lu Huang, Zhe Zang</span>  
   <span class="publication-date">March 2025</span>  
   [arXiv:2503.23200](https://arxiv.org/abs/2503.23200)
 
