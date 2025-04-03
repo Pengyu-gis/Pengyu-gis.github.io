@@ -136,7 +136,7 @@ Here is the PDF version: [PengyuCHEN Résumé](/Pengyu-CV.pdf)
             <h3>Lab Instructor</h3>
             <p><strong>University of South Carolina</strong></p>
             <p>Course: Landform Geography, GEOG 201</p>
-            <p>2024 Fall</p>
+            <p> 2024 Fall, 2025 Spring</p>
         </div>
     </div>
 </div>
