@@ -41,7 +41,7 @@ Preprint:
   [arXiv:2503.23200](https://arxiv.org/abs/2503.23200)
 
 2.  <span class="publication-title">Intelligent Bear Prevention System Based on Computer Vision: An Approach to Reduce Human-Bear Conflicts in the Tibetan Plateau Area, China</span>  
-  <span class="publication-authors"><strong>Pengyu Chen</strong>, Fei Teng, Yuhan Du, Jiahui Yi, Yufei Li, John A. Kupfer</span>  
+  <span class="publication-authors"><strong>Pengyu Chen</strong>, Fei Teng, Yunyan Du, Jiawei Yi, Yi Li, John A. Kupfer</span>  
   <span class="publication-date">March 2025</span>  
   [arXiv:2503.23178](https://arxiv.org/abs/2503.23178)
 
