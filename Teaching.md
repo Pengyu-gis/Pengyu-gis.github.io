@@ -35,7 +35,7 @@ key: page-Teaching
 
 ### Anonymous evaluations and feedback from students
 
-- ***Overall score: 4.44/5.0***
+- ***Overall score: 4.439814648/5.0***
 
 #### Selected Student Comments (both positive and constructive feedback):
 
