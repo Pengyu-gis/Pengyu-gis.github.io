@@ -37,8 +37,6 @@ key: page-Teaching
 
 ***24Fall Overall score: 4.439814648/5.0***
 
----
-
 **Selected Student Comments (both positive and constructive feedback):**
 
 1. “Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”
