@@ -31,3 +31,18 @@ key: page-Teaching
 - Lab 6 Surface Hydrology and Watershed Processes: [PDF Slides](Teaching_slides/Surface_Hydrology_and_Watershed_Processes.pdf)
 - Lab 7 Fluvial Processes and Landforms: [PDF Slides](Teaching_slides/Fluvial_Processes_and_Landforms.pdf)
 - Review Session: [PDF_Document](Teaching_slides/Review_GEOG201.pdf).
+
+
+### Anonymous evaluations and feedback from students
+
+- Overall score: 4.44/5.0
+
+#### Selected Student Comments(both positive and constructive feedback):
+
+- “Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”
+
+- “I really enjoyed the labs; he made it very interesting.”
+
+- “He did a good job presenting material and answering questions.”
+
+- “Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”
