@@ -35,14 +35,11 @@ key: page-Teaching
 
 ### Anonymous evaluations and feedback from students
 
-- Overall score: 4.44/5.0
+- ***Overall score: 4.44/5.0***
 
-#### Selected Student Comments(both positive and constructive feedback):
+#### Selected Student Comments (both positive and constructive feedback):
 
-- “Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”
-
-- “I really enjoyed the labs; he made it very interesting.”
-
-- “He did a good job presenting material and answering questions.”
-
-- “Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”
+1. “Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”
+2. “I really enjoyed the labs; he made it very interesting.”
+3. “He did a good job presenting material and answering questions.”
+4. “Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”
