@@ -35,9 +35,11 @@ key: page-Teaching
 
 ### Anonymous evaluations and feedback from students
 
-- ***Overall score: 4.439814648/5.0***
+***24Fall Overall score: 4.439814648/5.0***
 
-#### Selected Student Comments (both positive and constructive feedback):
+---
+
+**Selected Student Comments (both positive and constructive feedback):**
 
 1. “Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”
 2. “I really enjoyed the labs; he made it very interesting.”
