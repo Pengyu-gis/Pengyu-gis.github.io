@@ -21,7 +21,7 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Link: https://scdps-gis-and-mapping-scdps.hub.arcgis.com/search?collection=Dataset
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4c829080-d252-4433-a8b5-975f92f72834", alt="points" style="width:75%;">
+  <img src="https://github.com/user-attachments/assets/4c829080-d252-4433-a8b5-975f92f72834" alt="points" style="width:75%;">
 </p>
 
 
