@@ -26,7 +26,7 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 ### (3) DEM Data from USGS
 Download link: https://apps.nationalmap.gov/downloader/
 <p>
-  <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f", alt="DEM" style="width:75%;">
+  <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f" alt="DEM" style="width:75%;">
 </p>
 
 ### (4) Slope and Curvature calculation
