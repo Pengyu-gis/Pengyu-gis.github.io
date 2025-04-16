@@ -2,7 +2,7 @@
 tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 ---
 
-> With Xiuchuan Liu and Xunan Yang, two Ph.D. students in statistics at the University of South Carolina.
+*With Xiuchuan Liu and Xunan Yang, two Ph.D. students in statistics at the University of South Carolina.*
 
 ## 1. Dataset and data preprocess
 
@@ -11,7 +11,7 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Traffic count (Average Daily Traffic)
 - Link: https://info2.scdot.org/GISMapping/Pages/GIS.aspx
 <p>
-  <img src="https://github.com/user-attachments/assets/be8ec045-90d3-4951-91b9-30d7250328ac", alt="Different types of Roads" width="550"/>
+  <img src="https://github.com/user-attachments/assets/be8ec045-90d3-4951-91b9-30d7250328ac", alt="Different types of Roads" width="500"/>
 </p>
 
 ### (2) Data from SCDPS (South Carolina Department of Public Safety)
@@ -19,14 +19,14 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Fatal traffic accidents data
 - Link: https://scdps-gis-and-mapping-scdps.hub.arcgis.com/search?collection=Dataset
 <p>
-  <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="Different types of Roads" width="550"/>
+  <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="Different types of Roads" width="600"/>
 </p>
 
 
 ### (3) DEM Data from USGS
 Download link: https://apps.nationalmap.gov/downloader/
 <p>
-  <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f", width="550"/>
+  <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f", width="600"/>
 </p>
 
 ### (4) Slope and Curvature calculation
@@ -34,7 +34,7 @@ Download link: https://apps.nationalmap.gov/downloader/
 (2) Curvature: 
 The curvature of a road is quantified using the **radius of a circle** that passes through **three consecutive points** along the road. This radius is also called the **radius of curvature**. Smaller radii indicate sharper turns; larger radii indicate straighter segments.
 <p>
-<img src="https://github.com/user-attachments/assets/c6575d1f-f867-4cc9-9c35-e4388bdd9e4f", width="550"/>
+<img src="https://github.com/user-attachments/assets/c6575d1f-f867-4cc9-9c35-e4388bdd9e4f", width="600"/>
 </p>
 
 Assume three sequential points on the road:
@@ -81,7 +81,6 @@ To compute the curvature along the entire road line:
 - Assign $R$ to the middle point.
 - Repeat for all points.
 
----
 
 ## 2. Modeling Framework: Poisson Point Process
 
@@ -134,8 +133,6 @@ We evaluated potential multicollinearity among the continuous predictors: **Slop
 
 ### Pearson Correlation Matrix
 
-
-
 |              | Slope    | Curvature | AADT     |
 |--------------|----------|-----------|----------|
 | **Slope**    | 1.000000 | -0.107572 | -0.166621 |
@@ -146,8 +143,6 @@ We evaluated potential multicollinearity among the continuous predictors: **Slop
 All pairwise correlations are weak (absolute values < 0.2), indicating negligible linear dependence between variables.
 
 ### Variance Inflation Factor (VIF)
-
-
 
 | Variable   | VIF      |
 |------------|----------|
@@ -186,7 +181,6 @@ Each diagnostic follows these steps:
 
 This approach allows us to assess whether the effect of each covariate is **spatially or contextually stable**, or if it **varies across the dataset**.
 
----
 
 ### AADT: Effect Weakens at Higher Traffic Volume
 
@@ -196,7 +190,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 > The AADT coefficient is consistently negative, indicating that roads with higher traffic volumes are **less likely to experience fatal crashes**. However, the **magnitude of this negative effect weakens** as traffic increases.
 
----
 
 ### Curvature: Consistent Mild Risk
 
@@ -206,7 +199,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 > The curvature coefficient remains negative across all windows, suggesting that **more sharply curved roads are associated with higher fatality risk**. The effect is small but consistent.
 
----
 
 ### Slope: Increasingly Positive Association
 
@@ -216,7 +208,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 > The slope effect transitions from negative at low gradients to **increasingly positive at higher slopes**, indicating **elevated fatality risk in steep terrain**.
 
----
 
 ## 6. Spatial Distribution of Estimated Fatal Crash Intensity $\hat{\lambda}(x)$
 
@@ -226,7 +217,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 > Areas of high intensity (brighter values) correspond to major intersections, dense urban corridors, and highly sloped or curved roads with low AADT — reflecting model-predicted regions of elevated fatal crash likelihood.
 
----
 
 ## 7. GLM Results: Poisson Point Process on All Roads
 
@@ -247,7 +237,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 - **Pseudo R² (Cragg & Uhler’s)**: 0.0012  
 - **Degrees of Freedom**: 399993
 
----
 
 ## 8. Road-Type-Specific Modeling: Highways vs. Local Roads
 
@@ -268,7 +257,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 - **Deviance**: 2402.7  
 - **Pseudo R²**: 0.0029
 
----
 
 ### Poisson GLM Summary: Local Roads
 
@@ -288,8 +276,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 - **Deviance**: 2251.2  
 - **Pseudo R²**: 0.0024
 
----
-
 ### Spatial Distribution of $\hat{\lambda}(x)$: Highway vs. Local Roads
 
 <p align="center">
@@ -298,7 +284,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 > The intensity of fatal crashes $\hat{\lambda}(x)$ is highest on **highway junctions and corridors**. In contrast, local roads exhibit **spatially dispersed intensity**, often centered around urbanized clusters and curved segments.
 
----
 
 ### Sliding Window Analysis of AADT Coefficient
 
@@ -308,5 +293,4 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 > This contrast suggests that **AADT plays a more substantial role in fatal crash suppression on local roads**, where increases in traffic volume may lead to lower speeds and improved visibility.
 
----
 
