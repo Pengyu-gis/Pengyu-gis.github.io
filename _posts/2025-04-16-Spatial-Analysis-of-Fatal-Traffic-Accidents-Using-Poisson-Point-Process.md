@@ -2,7 +2,7 @@
 tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 ---
 
-*With Xiuchuan Liu and Xunan Yang, two Ph.D. students in statistics at the University of South Carolina.*
+*With **Xiuchuan Liu** and **Xunan Yang**, two talented Ph.D. students in statistics at the University of South Carolina.*
 
 ## 1. Dataset and data preprocess
 
@@ -19,7 +19,7 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Fatal traffic accidents data
 - Link: https://scdps-gis-and-mapping-scdps.hub.arcgis.com/search?collection=Dataset
 <p>
-  <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="points" style="width:75%;">
+  <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="points" style="width:85%;">
 </p>
 
 
