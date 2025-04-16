@@ -2,9 +2,6 @@
 tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 ---
 
-
-# Spatial Analysis of Fatal Traffic Accidents Using Poisson Point Process
-
 > With Xiuchuan Liu and Xunan Yang, two Ph.D. students in statistics at the University of South Carolina.
 
 ## 1. Dataset and data preprocess
@@ -13,7 +10,7 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Road shapefile (including highway, interstates, etc)
 - Traffic count (Average Daily Traffic)
 - Link: https://info2.scdot.org/GISMapping/Pages/GIS.aspx
-<p align="center">
+<p>
   <img src="https://github.com/user-attachments/assets/be8ec045-90d3-4951-91b9-30d7250328ac", alt="Different types of Roads" width="550"/>
 </p>
 
@@ -21,14 +18,14 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Traffic accidents data
 - Fatal traffic accidents data
 - Link: https://scdps-gis-and-mapping-scdps.hub.arcgis.com/search?collection=Dataset
-<p align="center">
+<p>
   <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="Different types of Roads" width="550"/>
 </p>
 
 
 ### (3) DEM Data from USGS
 Download link: https://apps.nationalmap.gov/downloader/
-<p align="center">
+<p>
   <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f", width="550"/>
 </p>
 
@@ -36,7 +33,7 @@ Download link: https://apps.nationalmap.gov/downloader/
 (1) Slope: We calculate slope using ArcGIS, the ArcGIS document Link: https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-slope-works.htm <br>
 (2) Curvature: 
 The curvature of a road is quantified using the **radius of a circle** that passes through **three consecutive points** along the road. This radius is also called the **radius of curvature**. Smaller radii indicate sharper turns; larger radii indicate straighter segments.
-<p align="center">
+<p>
 <img src="https://github.com/user-attachments/assets/c6575d1f-f867-4cc9-9c35-e4388bdd9e4f", width="550"/>
 </p>
 
@@ -137,7 +134,7 @@ We evaluated potential multicollinearity among the continuous predictors: **Slop
 
 ### Pearson Correlation Matrix
 
-<div align="center">
+
 
 |              | Slope    | Curvature | AADT     |
 |--------------|----------|-----------|----------|
@@ -145,13 +142,12 @@ We evaluated potential multicollinearity among the continuous predictors: **Slop
 | **Curvature**| -0.107572| 1.000000  | 0.044780 |
 | **AADT**     | -0.166621| 0.044780  | 1.000000 |
 
-</div>
 
 All pairwise correlations are weak (absolute values < 0.2), indicating negligible linear dependence between variables.
 
 ### Variance Inflation Factor (VIF)
 
-<div align="center">
+
 
 | Variable   | VIF      |
 |------------|----------|
@@ -163,7 +159,6 @@ All pairwise correlations are weak (absolute values < 0.2), indicating negligibl
 | Workzone   | 1.004390 |
 | AADT       | 1.037288 |
 
-</div>
 
 All VIFs are close to 1.0, well below the standard threshold of 5 or 10 for concern. This confirms that **multicollinearity is not present** in the dataset.
 
@@ -235,8 +230,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 ## 7. GLM Results: Poisson Point Process on All Roads
 
-<div align="center">
-
 | Variable      | Coefficient | Std. Error | z-value | p-value |
 |---------------|-------------|------------|---------|---------|
 | Intercept     | -0.7368     | 0.046      | -15.88  | <0.001  |
@@ -247,7 +240,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 | Workzone      | -0.1474     | 0.131      | -1.12   | 0.262   |
 | AADT          | -1.51e-05   | 1.43e-06   | -10.54  | <0.001  |
 
-</div>
 
 - **Log-Likelihood**: −6522.0  
 - **Deviance**: 4950.0  
@@ -261,7 +253,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 ### Poisson GLM Summary: Highways and Interstates
 
-<div align="center">
 
 | Variable   | Coef       | Std. Err | z-value | p-value |
 |------------|------------|----------|---------|---------|
@@ -273,8 +264,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 | Workzone   | -0.1402    | 0.139    | -1.009  | 0.313   |
 | AADT       | -9.67e-06  | 1.42e-06 | -6.810  | <0.001  |
 
-</div>
-
 - **Log-Likelihood**: −4082.4  
 - **Deviance**: 2402.7  
 - **Pseudo R²**: 0.0029
@@ -283,7 +272,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 ### Poisson GLM Summary: Local Roads
 
-<div align="center">
 
 | Variable   | Coef       | Std. Err | z-value | p-value |
 |------------|------------|----------|---------|---------|
@@ -295,7 +283,6 @@ This approach allows us to assess whether the effect of each covariate is **spat
 | Workzone   | 0.2232     | 0.380    | 0.588   | 0.557   |
 | AADT       | -4.31e-05  | 4.59e-06 | -9.394  | <0.001  |
 
-</div>
 
 - **Log-Likelihood**: −2301.6  
 - **Deviance**: 2251.2  
