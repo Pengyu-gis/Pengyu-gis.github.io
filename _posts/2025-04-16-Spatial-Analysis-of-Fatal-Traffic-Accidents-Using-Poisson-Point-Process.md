@@ -11,7 +11,7 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Traffic count (Average Daily Traffic)
 - Link: https://info2.scdot.org/GISMapping/Pages/GIS.aspx
 <p>
-  <img src="https://github.com/user-attachments/assets/be8ec045-90d3-4951-91b9-30d7250328ac", alt="Different types of Roads" width="500"/>
+  <img src="https://user-images.githubusercontent.com/12345678/abcdef.png" alt="Different types of Roads" style="width:75%;">
 </p>
 
 ### (2) Data from SCDPS (South Carolina Department of Public Safety)
