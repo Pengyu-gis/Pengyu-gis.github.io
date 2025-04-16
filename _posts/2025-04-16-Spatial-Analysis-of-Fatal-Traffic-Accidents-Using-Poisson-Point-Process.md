@@ -19,14 +19,14 @@ tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 - Fatal traffic accidents data
 - Link: https://scdps-gis-and-mapping-scdps.hub.arcgis.com/search?collection=Dataset
 <p>
-  <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="Different types of Roads" width="600"/>
+  <img src="https://github.com/user-attachments/assets/3ff0cc95-63da-45a4-9a17-1d3fa0876348", alt="Different types of Roads" style="width:75%;">
 </p>
 
 
 ### (3) DEM Data from USGS
 Download link: https://apps.nationalmap.gov/downloader/
 <p>
-  <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f", width="600"/>
+  <img src="https://github.com/user-attachments/assets/762e78c7-0859-46ea-9a36-ac69e555740f", style="width:75%;">
 </p>
 
 ### (4) Slope and Curvature calculation
@@ -34,7 +34,7 @@ Download link: https://apps.nationalmap.gov/downloader/
 (2) Curvature: 
 The curvature of a road is quantified using the **radius of a circle** that passes through **three consecutive points** along the road. This radius is also called the **radius of curvature**. Smaller radii indicate sharper turns; larger radii indicate straighter segments.
 <p>
-<img src="https://github.com/user-attachments/assets/c6575d1f-f867-4cc9-9c35-e4388bdd9e4f", width="600"/>
+<img src="https://github.com/user-attachments/assets/c6575d1f-f867-4cc9-9c35-e4388bdd9e4f", style="width:75%;">
 </p>
 
 Assume three sequential points on the road:
