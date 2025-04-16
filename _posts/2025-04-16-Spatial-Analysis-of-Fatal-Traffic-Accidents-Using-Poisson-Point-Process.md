@@ -1,7 +1,7 @@
 ---
-title: Spatial Analysis of Fatal Traffic Accidents Using Poisson Point Process
-
+tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
 ---
+
 
 # Spatial Analysis of Fatal Traffic Accidents Using Poisson Point Process
 
