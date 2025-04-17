@@ -1,5 +1,5 @@
 ---
-tags: Geospatial-statistics Geospatial-analysis Transportation Public Health
+tags: Geospatial-statistics Geospatial-analysis Transportation Public-health
 ---
 
 *With **Xiuchuan Liu** and **Xunan Yang**, two talented Ph.D. students in statistics at the University of South Carolina.*
@@ -36,7 +36,7 @@ Download link: https://apps.nationalmap.gov/downloader/
 (1) Slope: We calculate slope using ArcGIS, the ArcGIS document Link: https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-slope-works.htm <br>
 (2) Curvature: 
 The curvature of a road is quantified using the **radius of a circle** that passes through **three consecutive points** along the road. This radius is also called the **radius of curvature**. Smaller radii indicate sharper turns; larger radii indicate straighter segments.
-<p>
+<p align="center">
 <img src="https://github.com/user-attachments/assets/c6575d1f-f867-4cc9-9c35-e4388bdd9e4f" alt=""  style="width:75%;">
 </p>
 
@@ -136,12 +136,15 @@ We evaluated potential multicollinearity among the continuous predictors: **Slop
 
 ### Pearson Correlation Matrix
 
+<p align="center">
+  
 |              | Slope    | Curvature | AADT     |
 |--------------|----------|-----------|----------|
 | **Slope**    | 1.000000 | -0.107572 | -0.166621 |
 | **Curvature**| -0.107572| 1.000000  | 0.044780 |
 | **AADT**     | -0.166621| 0.044780  | 1.000000 |
 
+</p>
 
 All pairwise correlations are weak (absolute values < 0.2), indicating negligible linear dependence between variables.
 
