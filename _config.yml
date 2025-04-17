@@ -180,6 +180,8 @@ analytics:
 ## => Build
 ##############################
 markdown    : kramdown
+kramdown:
+  input: GFM
 highlighter : rouge
 permalink   : date
 
