@@ -136,19 +136,22 @@ We evaluated potential multicollinearity among the continuous predictors: **Slop
 
 ### Pearson Correlation Matrix
 
-<p align="center">
-  
+<div align="center">
+
 |              | Slope    | Curvature | AADT     |
 |--------------|----------|-----------|----------|
 | **Slope**    | 1.000000 | -0.107572 | -0.166621 |
 | **Curvature**| -0.107572| 1.000000  | 0.044780 |
 | **AADT**     | -0.166621| 0.044780  | 1.000000 |
 
-</p>
+</div>
+
 
 All pairwise correlations are weak (absolute values < 0.2), indicating negligible linear dependence between variables.
 
 ### Variance Inflation Factor (VIF)
+
+<div align="center">
 
 | Variable   | VIF      |
 |------------|----------|
@@ -159,6 +162,8 @@ All pairwise correlations are weak (absolute values < 0.2), indicating negligibl
 | Surface    | 1.003594 |
 | Workzone   | 1.004390 |
 | AADT       | 1.037288 |
+
+</div>
 
 
 All VIFs are close to 1.0, well below the standard threshold of 5 or 10 for concern. This confirms that **multicollinearity is not present** in the dataset.
@@ -226,6 +231,8 @@ This approach allows us to assess whether the effect of each covariate is **spat
 
 ## 7. GLM Results: Poisson Point Process on All Roads
 
+<div align="center">
+
 | Variable      | Coefficient | Std. Error | z-value | p-value |
 |---------------|-------------|------------|---------|---------|
 | Intercept     | -0.7368     | 0.046      | -15.88  | <0.001  |
@@ -236,6 +243,7 @@ This approach allows us to assess whether the effect of each covariate is **spat
 | Workzone      | -0.1474     | 0.131      | -1.12   | 0.262   |
 | AADT          | -1.51e-05   | 1.43e-06   | -10.54  | <0.001  |
 
+</div>
 
 - **Log-Likelihood**: −6522.0  
 - **Deviance**: 4950.0  
