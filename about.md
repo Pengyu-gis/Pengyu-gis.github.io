@@ -48,6 +48,7 @@ key: page-about
 • Email: pengyuc@email.sc.edu <br>
 • Location: Columbia, SC, USA 
 
+(如果你在现实生活中见到我，可能会发现我的头发很长，不是因为什么造型，我就是单纯的省钱+没有车不方便找到Tony老师。)
 
 #### Social Account:
 • [GitHub](https://github.com/Pengyu-gis) <br>
