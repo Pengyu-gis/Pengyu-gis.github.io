@@ -23,6 +23,21 @@ key: page-Gallery
   I know every scene by heart, they all went by so fast. --Bob Dylan
 </div>
 <br>
+
+<div style="width: 85%; margin: 0 auto; text-align: center;">
+  <div style="display: flex; justify-content: space-around;">
+    <div style="width: 45%;">
+      <img src="https://github.com/Pengyu-gis/Pengyu-gis.github.io/blob/master/assets/images/dakota.jpg?raw=true" alt="" style="width: 100%;" />
+      <p><strong>Christmas in 2024 at The Dakota, John Lennon's home in New York City.</strong></p>
+    </div>
+    <div style="width: 45%;">
+      <img src="https://github.com/Pengyu-gis/Pengyu-gis.github.io/blob/master/assets/images/boston.jpg?raw=true" alt="Hot Summer in 2022, at West Lake(西湖), Hangzhou." style="width: 100%;" />
+      <p><strong>美丽的波士顿，寒冷的波士顿</strong></p>
+    </div>
+  </div>
+</div>
+
+
 <div style="width: 85%; margin: 0 auto; text-align: center;">
   <div style="display: flex; justify-content: space-around;">
     <div style="width: 45%;">
