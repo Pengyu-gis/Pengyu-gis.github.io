@@ -1,4 +1,6 @@
-# 📘 Notes on Point Processes (Spatial and Spatio-Temporal View)
+---
+tages: Point-process
+---
 
 ## Part 1: Fundamentals of Point Processes
 
