@@ -1,5 +1,5 @@
 ---
-tags: Geospatial-statistics Geospatial-analysis Transportation Public-health
+tags: Point-process Geospatial-statistics Geospatial-analysis Transportation Public-safety
 ---
 
 *With **Xiuchuan Liu** and **Xunan Yang**, two talented Ph.D. students in statistics at the University of South Carolina.*
