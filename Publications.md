@@ -49,7 +49,9 @@ Preprint:
 
 Working Paper:
 
-<span  class="publication-title">Sound, Space, and Sentiment: Understanding the Association of Urban Soundscapes and Perceptions</span> <BR>
+<span  class="publication-title">Sound, Space, and Sentiment: Understanding the Association of Urban Soundscapes and Perceptions</span> <br>
 *First Author* | AAG conference
 
+<span class="publication-title">Spatial Modeling of Fatal Traffic Accidents in South Carolina Using Poisson Point Process</span>  <br>
+*First Co-author* 
 
