@@ -2,6 +2,8 @@
 tages: Point-process
 ---
 
+忘记概念的时候，回来多看几遍
+
 ## Part 1: Fundamentals of Point Processes
 
 ### 1.1 What is a Point Process?
