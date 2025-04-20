@@ -27,8 +27,6 @@ $$
 
 > Each realization is a "dot map" of where (and when) events occurred.
 
- 
-
 ### 1.2 Why Use Point Processes?
 
 Point processes capture not only the **count** of events, but also their **pattern**:
@@ -39,7 +37,6 @@ Point processes capture not only the **count** of events, but also their **patte
 These questions cannot be answered by simple aggregate counts.
 
  
-
 ### 1.3 Basic Types of Point Processes
 
 - **Homogeneous Poisson Process (HPP)**: Events are completely random; constant intensity $\lambda$.
@@ -47,17 +44,13 @@ These questions cannot be answered by simple aggregate counts.
 - **Cluster Processes** (e.g., Thomas process): Points cluster around "parent" events.
 - **Inhibitory Processes** (e.g., Strauss process): Points repel each other.
 
- 
-
 ### 1.4 Assumptions and Properties of a Point Process
 
 Let $W \subset \mathbb{R}^2$ denote a bounded spatial window (e.g., a study region), and let $N(B)$ denote the number of events (points) falling within a Borel-measurable subset $B \subset W$.
 
 For a well-defined point process, the following structural properties are often assumed or examined:
 
- 
-
-#### 🔹 Simplicity
+#### Simplicity
 
 A point process is said to be **simple** if it does not place multiple events at the same location.
 
@@ -74,7 +67,7 @@ This ensures that points are distinct and no two events occur at exactly the sam
 
  
 
-#### 🔹 Local Finiteness
+#### Local Finiteness
 
 A point process is **locally finite** if, for any bounded region $B \subset W$, the number of points in $B$ is finite almost surely:
 
@@ -90,7 +83,7 @@ This condition prevents the occurrence of an infinite number of events in a fini
 
  
 
-#### 🔹 Stationarity (Translation Invariance)
+#### Stationarity (Translation Invariance)
 
 A point process is **stationary** if its statistical properties do not change when the entire process is translated in space.
 
@@ -109,9 +102,7 @@ $$
 - In urban planning, assuming stationarity would imply that events (e.g., accidents) are equally likely across the entire city—often unrealistic.
 - Therefore, **inhomogeneous models** (non-stationary) are typically more appropriate for real-world data.
 
- 
-
-#### 🔹 Isotropy (Rotational Invariance)
+#### Isotropy (Rotational Invariance)
 
 A point process is **isotropic** if its properties are invariant under rotations about any point (typically the origin).
 
@@ -152,10 +143,11 @@ This implies that second-order properties such as pair correlation functions dep
 These violations guide the choice of models (e.g., Poisson vs Cox, homogeneous vs inhomogeneous, isotropic vs anisotropic kernels).
 
 
-
- 
-
 ## Part 2: Mathematical Framework
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b2f0cdd-73f4-480f-8000-d2c4767dd84e" alt="framework" style="width:80%;">
+</p>
 
 ## 2.1 First-Order Properties — The Intensity Function
 
@@ -170,14 +162,10 @@ where:
 - $N(ds)$ is the number of points falling within $ds$,
 - $\mathbb{E}[\cdot]$ denotes expectation.
 
- 
-
 ### 🔹 Units and Interpretation
 
 - Units: typically points per km² or per m².
 - Interpretation: high $\lambda(s)$ indicates a denser expected concentration of events near $s$.
-
- 
 
 ### 🔹 Homogeneous Poisson Point Process (HPPP)
 
