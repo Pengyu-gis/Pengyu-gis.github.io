@@ -185,8 +185,9 @@ $$
 \lambda(s) = \lambda > 0 \quad \text{for all } s \in W
 $$
 
-Let $B \subset W$ be a region with area $|B|$. Then:
+Let $B \subset W$ be a region with area $|B|$, 
 
+Then:
 - The number of points $N(B)$ in $B$ follows a Poisson distribution:
 
 $$
@@ -237,8 +238,9 @@ where:
 - $\lVert s - s_i \rVert$ is the Euclidean distance between evaluation point $s$ and observation $s_i$.
 
 **Common kernel choices:**
-- Gaussian: $K(u) = \frac{1}{2\pi} e^{-u^2/2}$
-- Epanechnikov: $K(u) = \frac{3}{4}(1 - u^2)$ for $|u| < 1$
+- Gaussian: $K(u)$ = $\frac{1}{2\pi} e^{-u^2/2}$
+  
+- Epanechnikov: $K(u)$ = $\frac{3}{4}(1 - u^2)$ for $|u| < 1$
 
 > This yields a smooth surface approximation of intensity across space — analogous to KDE (Kernel Density Estimation).
 
