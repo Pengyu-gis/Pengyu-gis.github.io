@@ -25,7 +25,7 @@ $$
 
 > Each realization is a "dot map" of where (and when) events occurred.
 
----
+ 
 
 ### 1.2 Why Use Point Processes?
 
@@ -36,7 +36,7 @@ Point processes capture not only the **count** of events, but also their **patte
 
 These questions cannot be answered by simple aggregate counts.
 
----
+ 
 
 ### 1.3 Basic Types of Point Processes
 
@@ -45,7 +45,7 @@ These questions cannot be answered by simple aggregate counts.
 - **Cluster Processes** (e.g., Thomas process): Points cluster around "parent" events.
 - **Inhibitory Processes** (e.g., Strauss process): Points repel each other.
 
----
+ 
 
 ### 1.4 Assumptions and Properties of a Point Process
 
@@ -53,7 +53,7 @@ Let $W \subset \mathbb{R}^2$ denote a bounded spatial window (e.g., a study regi
 
 For a well-defined point process, the following structural properties are often assumed or examined:
 
----
+ 
 
 #### 🔹 Simplicity
 
@@ -70,7 +70,7 @@ This ensures that points are distinct and no two events occur at exactly the sam
 - In most physical phenomena (e.g., tree locations, accident sites), it is unlikely for two events to be recorded at precisely the same point.
 - However, in some applications (e.g., telecommunications or highly discrete datasets), **non-simple** processes may arise and need to be treated carefully (e.g., using marked or multi-type point processes).
 
----
+ 
 
 #### 🔹 Local Finiteness
 
@@ -86,7 +86,7 @@ This condition prevents the occurrence of an infinite number of events in a fini
 - Ensures model realism: one cannot observe infinite car crashes, trees, or disease cases within a finite spatial extent.
 - A necessary assumption for practical statistical inference and visualization.
 
----
+ 
 
 #### 🔹 Stationarity (Translation Invariance)
 
@@ -107,7 +107,7 @@ $$
 - In urban planning, assuming stationarity would imply that events (e.g., accidents) are equally likely across the entire city—often unrealistic.
 - Therefore, **inhomogeneous models** (non-stationary) are typically more appropriate for real-world data.
 
----
+ 
 
 #### 🔹 Isotropy (Rotational Invariance)
 
@@ -127,18 +127,18 @@ This implies that second-order properties such as pair correlation functions dep
   - Environmental gradients (e.g., pollution diffusion in wind direction),
   - Urban corridors or coastline-aligned processes.
 
----
+ 
 
 ### Summary Table
 
 | Property       | Description                                             | Practical Implication                                      |
-|----------------|---------------------------------------------------------|-------------------------------------------------------------|
+|     -|                   |                    -|
 | Simplicity     | No duplicate points                                     | Ensures unique event locations                             |
 | Local Finiteness | Finite points in any bounded region                   | Prevents unrealistic infinite densities                    |
 | Stationarity   | Invariant under translation                            | Events equally likely everywhere (if homogeneous)          |
 | Isotropy       | Invariant under rotation                               | No directional bias in spatial structure                   |
 
----
+ 
 
 ### Common Violations
 
@@ -151,7 +151,7 @@ These violations guide the choice of models (e.g., Poisson vs Cox, homogeneous v
 
 
 
----
+ 
 
 ## Part 2: Mathematical Framework
 
@@ -168,18 +168,19 @@ where:
 - $N(ds)$ is the number of points falling within $ds$,
 - $\mathbb{E}[\cdot]$ denotes expectation.
 
----
+ 
 
 ### 🔹 Units and Interpretation
 
 - Units: typically points per km² or per m².
 - Interpretation: high $\lambda(s)$ indicates a denser expected concentration of events near $s$.
 
----
+ 
 
 ### 🔹 Homogeneous Poisson Point Process (HPPP)
 
 In the homogeneous case, the intensity is constant throughout the domain:
+
 $$
 \lambda(s) = \lambda > 0 \quad \text{for all } s \in W
 $$
@@ -187,13 +188,14 @@ $$
 Let $B \subset W$ be a region with area $|B|$. Then:
 
 - The number of points $N(B)$ in $B$ follows a Poisson distribution:
-  $$
-  N(B) \sim \text{Poisson}(\lambda |B|)
-  $$
+
+$$
+N(B) \sim \text{Poisson}(\lambda |B|)
+$$
 
 - Events are **independent**: the number of points in disjoint regions are independent random variables.
 
----
+ 
 
 ### 🔹 Inhomogeneous Poisson Point Process (IPPP)
 
@@ -204,18 +206,20 @@ $$
 
 Then:
 - For any region $B$:
-  $$
-  N(B) \sim \text{Poisson} \left( \int_B \lambda(s) \, ds \right)
-  $$
+
+$$
+N(B) \sim \text{Poisson} \left( \int_B \lambda(s) \, ds \right)
+$$
 
 - The expected number of points in $B$ is:
-  $$
-  \mathbb{E}[N(B)] = \int_B \lambda(s) \, ds
-  $$
+
+$$
+\mathbb{E}[N(B)] = \int_B \lambda(s) \, ds
+$$
 
 > This model accounts for spatial inhomogeneity (e.g., higher intensity of crime in urban cores vs suburbs).
 
----
+ 
 
 ## 2.2 Estimating Intensity from Observed Data
 
@@ -238,7 +242,7 @@ where:
 
 > This yields a smooth surface approximation of intensity across space — analogous to KDE (Kernel Density Estimation).
 
----
+ 
 
 ### 🔹 What is Kernel Smoothing?
 
@@ -249,7 +253,7 @@ It can be visualized as placing a "bump" (the kernel) over each observed point a
 - Small $h$: high resolution, sensitive to local variation (but may overfit).
 - Large $h$: smoother surface, reduces noise (but may oversmooth).
 
----
+ 
 
 ## 2.3 Regression Models in Point Processes
 
@@ -266,7 +270,7 @@ This is analogous to a **Poisson regression** in generalized linear models (GLM)
 - $\lambda(s)$ is the mean rate (log-linked),
 - $Z_k(s)$ are spatial covariates (e.g., elevation, population density, distance to roads).
 
----
+ 
 
 ### 🔹 When is Regression Necessary?
 
@@ -276,7 +280,7 @@ Regression is **not required** for defining a point process but is:
 
 > In contrast, **kernel smoothing** is exploratory, while **regression modeling** enables hypothesis testing and covariate interpretation.
 
----
+ 
 
 ### 🔹 Example (Geographic Scenario)
 
@@ -295,7 +299,7 @@ $$
 
 This allows for both estimation and interpretation of spatial drivers.
 
----
+ 
 
 ## 🔍 2.4 Deriving Intensity for Inhomogeneous Poisson Point Process (IPPP) with Covariates
 
@@ -315,7 +319,7 @@ where:
 - $\boldsymbol{\beta} = (\beta_0, \beta_1, \dots, \beta_p)^\top$ is the vector of regression coefficients,
 - $Z_0(s) \equiv 1$ serves as the intercept term.
 
----
+ 
 
 ## 🔹 Likelihood Function for IPPP
 
@@ -336,7 +340,7 @@ This formula includes:
 - The **product of intensities** at the observed event locations,
 - A **normalizing term** to ensure the total intensity over the region $W$ matches the expected number of events.
 
----
+ 
 
 ## 🔹 Log-Likelihood Function
 
@@ -354,7 +358,7 @@ $$
 
 This is the objective function maximized in **Poisson point process regression** (a type of spatial GLM).
 
----
+ 
 
 ## 🔹 Estimating Parameters
 
@@ -370,7 +374,7 @@ $$
 $$
 is **approximated using quadrature**, e.g., by discretizing $W$ into grid cells.
 
----
+ 
 
 ## 🔹 Interpretation of Coefficients
 
@@ -379,7 +383,7 @@ Each $\beta_k$ describes the **log change in expected event intensity** per unit
 - $\beta_k > 0$ → increasing $Z_k$ leads to higher intensity (e.g., higher population density → more crime events),
 - $\beta_k < 0$ → increasing $Z_k$ suppresses intensity.
 
----
+ 
 
 ## Example: Fatal Accidents on Roads
 
@@ -395,7 +399,7 @@ $$
 
 This model can be fitted using maximum likelihood and visualized as an estimated **crash risk surface**.
 
----
+ 
 
 
 ### 2.5 Second-Order Properties — Pair Correlation
@@ -417,7 +421,7 @@ Interpretation:
 - $g(s, s') = 1$: independence
 - $g(s, s') < 1$: inhibition
 
----
+ 
 
 ## Part 3: Spatio-Temporal Point Processes
 
@@ -437,7 +441,7 @@ This could model:
 - Traffic accidents (locations and timestamps),
 - Wildlife sightings (GPS tracks + observation times).
 
----
+ 
 
 ### 3.2 Spatio-Temporal Intensity Function
 
@@ -454,7 +458,7 @@ $$
 
 This separability simplifies modeling assumptions.
 
----
+ 
 
 ### 3.3 Conditional Intensity Function
 
@@ -467,7 +471,7 @@ $$
 - $\mathcal{H}_t$: history of the process up to time $t$.
 - Used in **Hawkes processes**, where past events increase the likelihood of future events nearby.
 
----
+ 
 
 ### 3.4 Example Use Case (Urban Crashes)
 
@@ -478,4 +482,4 @@ Let $\lambda(s, t)$ be the intensity of fatal traffic crashes in Charleston over
 
 This structure can be inferred and predicted using kernel smoothing or Poisson regression.
 
----
+ 
