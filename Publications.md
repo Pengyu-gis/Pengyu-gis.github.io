@@ -53,5 +53,5 @@ Working Paper:
 *First Author* | AAG conference
 
 <span class="publication-title">Spatial Modeling of Fatal Traffic Accidents in South Carolina Using Poisson Point Process</span>  <br>
-*First Co-author* 
+*Co-first author* 
 
