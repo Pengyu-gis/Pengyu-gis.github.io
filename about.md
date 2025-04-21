@@ -44,11 +44,12 @@ key: page-about
     }
 </style>
 
+> 一九二六，北伐兵兴，边隅之地，青年两个，墨盒为礼，寄语未来；惟不知抬头落款中的两个人，他们的后来，是否就达学问功名，是否完成…『伟大的人生』。— 腰乐队 刘弢
+
 #### Pengyu Chen | 陈鹏宇
 • Email: pengyuc@email.sc.edu <br>
 • Location: Columbia, SC, USA 
 
-(如果你在现实生活中见到我，可能会发现我的头发很长，不是因为什么造型，我就是单纯的省钱+没有车不方便找到Tony老师。)
 
 #### Social Account:
 • [GitHub](https://github.com/Pengyu-gis) <br>
