@@ -49,7 +49,7 @@ key: page-about
 #### Pengyu Chen | 陈鹏宇
 • Email: pengyuc@email.sc.edu <br>
 • Location: Columbia, SC, USA <br>
-• Office: Callcott 121, or Callcott 312 (GIScience Lab)
+• Office: Callcott 121, or Callcott 318 (GIScience Lab)
 
 
 #### Social Account:
