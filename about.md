@@ -51,6 +51,7 @@ key: page-about
 • Location: Columbia, SC, USA <br>
 • Office: Callcott 121, or Callcott 318 (GIScience Lab)
 
+**I am actively pursuing a Ph.D. opportunity for Fall 2026, specializing in GeoAI, geospatial analysis, and deep learning.**
 
 #### Social Account:
 • [GitHub](https://github.com/Pengyu-gis) <br>
