@@ -70,7 +70,7 @@ Here is the PDF version: [PENGYU_CHEN_CV](/Pengyu_Chen_CV.pdf)
         <div class="experience-details">
             <h3>M.S. in Geographic Information Science</h3>
             <p><strong>University of South Carolina</strong> | August 2024 – May 2026</p>
-            <p>TA full scholarship</p>
+            <p>TA full scholarship, GPA:3.82/4</p> 
             <p>Advisor: <a href="https://scholar.google.com/citations?user=ul3VlbgAAAAJ&hl=en">Dr. Sicheng Wang</a></p>
         </div>
     </div>
