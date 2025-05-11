@@ -59,7 +59,7 @@ key: page-about
 
     
 ## Curriculum vitae:
-Here is the PDF version: [PENGYU_CHEN_CV](/Pengyu_Chen_CV.pdf)
+Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
 <br>
 
 ## Education
