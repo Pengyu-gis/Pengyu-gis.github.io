@@ -1,5 +1,4 @@
 ---
-title: Publications
 layout: article
 key: page-Publications
 ---
@@ -43,7 +42,9 @@ key: page-Publications
    <span class="publication-date">November 2022</span>  
    [DOI: 10.1088/1755-1315/1011/1/012044](https://doi.org/10.1088/1755-1315/1011/1/012044)
 
-**More papers coming... eventually.**
+
+#### More papers coming... eventually.
+
 
 Working Paper:
 
