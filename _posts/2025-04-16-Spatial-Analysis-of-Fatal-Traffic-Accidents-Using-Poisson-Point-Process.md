@@ -91,9 +91,8 @@ In this study, we model the occurrence of fatal road traffic accidents as a **sp
 
 The **log-likelihood** of a nonhomogeneous Poisson point process is given by:
 
-$$
-\log L(\lambda) = \sum_{i=1}^n \log \lambda(x_i) - \int_W \lambda(x) \, dx
-$$
+$\log L(\lambda) = \sum_{i=1}^n \log \lambda(x_i) - \int_W \lambda(x) \, dx$
+
 
 Where:
 - $\lambda(x)$: The **intensity function**, representing the expected number of fatal events per unit area (or road length) at location \( x \)
