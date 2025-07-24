@@ -18,35 +18,11 @@ key: page-Publications
     }
 </style>
 
-1. **Cross-Modal Urban Sensing: Evaluating Sound-Vision Alignment Across Street-Level and Aerial Imagery**  
-   **Pengyu Chen**, Xiao Huang, Fei Teng, Sicheng Wang  
-   *June 2025*  
-   [arXiv:2506.03388](https://arxiv.org/abs/2506.03388)
-
-2. **A GAN-Enhanced Deep Learning Framework for Rooftop Detection from Historical Aerial Imagery**  
-   **Pengyu Chen**, Sicheng Wang, Cuizhen Wang, Senrong Wang, Beiao Huang, Lu Huang, Zhe Zang  
-   *March 2025*  
-   [arXiv:2503.23200](https://arxiv.org/abs/2503.23200)
-
-3. **Intelligent Bear Prevention System Based on Computer Vision: An Approach to Reduce Human-Bear Conflicts in the Tibetan Plateau Area, China**  
-   **Pengyu Chen**, Fei Teng, Yunyan Du, Jiawei Yi, Yi Li, John A. Kupfer  
-   *March 2025*  
-   [arXiv:2503.23178](https://arxiv.org/abs/2503.23178)
-
-4. **Socio-demographic Inequalities in the Impacts of Extreme Temperatures on Population Mobility**  
-   Xinyue Gu, **Pengyu Chen**, Chao Fan  
-   *June 2023*  
-   [DOI: 10.1016/j.jtrangeo.2023.103755](https://doi.org/10.1016/j.jtrangeo.2023.103755)
-
-5. **Multi-Agent Path Optimization Based on STA\* Algorithm**  
-   Ruixiang Cheng, Xinyu Wang, **Pengyu Chen**, Jiaxin Liu  
-   *November 2022*
-
-6. **Impacts of Ethiopia Dam on Vegetation and Water and Ecological Countermeasures**  
-   **Pengyu Chen**, Tengyuan Liang, Zibin Wu  
-   *November 2022*  
-   [DOI: 10.1088/1755-1315/1011/1/012044](https://doi.org/10.1088/1755-1315/1011/1/012044)
-
+1. Chen, P., Huang, X., Teng, F., & Wang, S. (2025, June). Cross-modal urban sensing: Evaluating sound-vision alignment across street-level and aerial imagery. arXiv. https://arxiv.org/abs/2506.03388
+2. Chen, P., Wang, S., Wang, C., Wang, S., Huang, B., Huang, L., & Zang, Z. (2025, July). A GAN-enhanced deep learning framework for rooftop detection from historical aerial imagery. International Journal of Remote Sensing. https://doi.org/10.1080/01431161.2025.2534994
+3. Chen, P., Teng, F., Du, Y., Yi, J., Li, Y., & Kupfer, J. A. (2025, March). Intelligent bear prevention system based on computer vision: An approach to reduce human-bear conflicts in the Tibetan Plateau area, China. arXiv. https://arxiv.org/abs/2503.23178
+4. Gu, X., Chen, P., & Fan, C. (2023, June). Socio-demographic inequalities in the impacts of extreme temperatures on population mobility. Journal of Transport Geography, 110, 103755. https://doi.org/10.1016/j.jtrangeo.2023.103755
+5. Chen, P., Liang, T., & Wu, Z. (2022, November). Impacts of Ethiopia dam on vegetation and water and ecological countermeasures. IOP Conference Series: Earth and Environmental Science, 1011(1), 012044. https://doi.org/10.1088/1755-1315/1011/1/012044
 
 
 #### More papers coming... eventually.
