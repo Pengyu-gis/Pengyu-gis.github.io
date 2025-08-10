@@ -51,16 +51,15 @@ key: page-about
 • Location: Columbia, SC, USA <br>
 • Office: Callcott 121, or Callcott 318 (GIScience Lab)
 
-**I am actively pursuing a Ph.D. opportunity for Fall 2026, specializing in GeoAI, geospatial analysis, and deep learning.**
-
-#### Social Account:
-• [GitHub](https://github.com/Pengyu-gis) <br>
-• [LinkedIn](https://www.linkedin.com/in/pengyu-chen-a07973181/)
+#### Accounts:
+• [GitHub](https://github.com/Pengyu-gis) | [LinkedIn](https://www.linkedin.com/in/pengyu-chen-a07973181/) | [Google Scholar](https://scholar.google.com/citations?user=3Y9YVSIAAAAJ&hl=en) | [Research Gate](https://www.researchgate.net/profile/Pengyu-Chen-20)
 
     
 ## Curriculum vitae:
 Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
 <br>
+
+**I am actively pursuing a Ph.D. opportunity for Fall 2026, specializing in GeoAI, geospatial analysis, and deep learning.**
 
 ## Education
 
@@ -90,6 +89,26 @@ Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
 ## Research Experience
 
 <div class="experience-section">
+  
+    <div class="experience">
+        <img src="assets/usclogo.png" alt="University of South Carolina" class="experience-logo">
+        <div class="experience-details">
+            <h3>Research Assistant</h3>
+            <p><strong>University of South Carolina</strong> | July 2025 – August 2025</p>
+            <p><strong>Funded by City of Columbia</strong></p>
+            <ul>
+                <li>Trained a deep learning model to detect tree canopy based on SegFormer</li>
+                <li>Analyzed canopy loss trends from 2005–2023 using high-resolution imagery</li>
+            </ul>
+            <p>Advisor: 
+                <a href="https://scholar.google.com/citations?user=JPHSY40AAAAJ&hl=en">Dr. Cuizhen Wang</a> 
+                and 
+                <a href="https://sc.edu/study/colleges_schools/artsandsciences/geography/our_people/our_people_directory/dow_kirstin.php">Dr. Kirstin Dow</a>
+            </p>
+        </div>
+    </div>
+
+  
     <div class="experience">
         <img src="assets/Harvardlogo.png" alt="Harvard University" class="experience-logo">
         <div class="experience-details">
