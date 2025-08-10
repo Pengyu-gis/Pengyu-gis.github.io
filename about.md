@@ -161,6 +161,7 @@ Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
             <p><strong>University of South Carolina</strong></p>
             <p>Course: Landform Geography, GEOG 201</p>
             <p> 2024 Fall, 2025 Spring</p>
+            <p> Supervised by Dr. Jean Taylor Ellis and Dr. John A. Kupfer</p>
         </div>
     </div>
 </div>
