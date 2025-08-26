@@ -79,4 +79,11 @@ key: page-Publications
   </li>
 </ol>
 
+<ol class="publication-list" start="7">
+  <li class="pub-entry">
+    <span class="pub-title">Mapping Multi-Dimensional Urban Tree Canopy Change with Deep Learning: A Case Study of Columbia, SC (2005–2023)</span><br>
+    <span class="pub-authors">First author</span>
+  </li>
+</ol>
+
 <p style="margin-top: 2em; font-style: italic;">More papers coming... eventually.</p>
