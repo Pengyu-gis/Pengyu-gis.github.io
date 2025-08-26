@@ -59,7 +59,7 @@ key: page-about
 Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
 <br>
 
-**I am actively pursuing a Ph.D. opportunity for Fall 2026, specializing in GeoAI, geospatial analysis, and deep learning.**
+*I'm happy to collrate with anyone interested in GeoAI, GIScience and Statistics! :D*
 
 ## Education
 
