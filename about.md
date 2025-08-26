@@ -184,5 +184,3 @@ Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
         </div>
     </div>
 </div>
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=030c2c&w=300&t=n&d=4iB7KkCGReQ-3k9eMOT6V6IWgO9ny8Fre9biQEf2NSg&co=ffffff&cmo=c0bb8d&cmn=3aa8cc&ct=808080'></script>
