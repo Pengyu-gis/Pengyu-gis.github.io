@@ -59,7 +59,8 @@ key: page-about
 Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
 <br>
 
-*I'm happy to collrate with anyone interested in GeoAI, GIScience and Statistics! :D*
+*I'm happy to collaborate with anyone interested in GeoAI, Remote Sensing and Statistics. :D* <br>
+非常欢迎对地理人工智能、遥感和统计感兴趣的朋友与我合作。我很想学统计但发现自己脑子确实不太够用，因此特别欢迎大家来交流和指教。
 
 ## Education
 
