@@ -34,7 +34,7 @@ key: page-Publications
 </style>
 
 
-**If you are interested in my research, you can find more details on my [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=3Y9YVSIAAAAJ)**
+**If you are interested in my research, you can find more details on my [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=3Y9YVSIAAAAJ).**
 
 <ol class="publication-list">
   <li class="pub-entry">
