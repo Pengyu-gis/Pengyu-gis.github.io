@@ -33,6 +33,9 @@ key: page-Publications
     }
 </style>
 
+
+**If you are interested in my research, you can find more details on my [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=3Y9YVSIAAAAJ)**
+
 <ol class="publication-list">
   <li class="pub-entry">
     <span class="pub-authors"><strong>Chen, P.</strong>, Huang, X., Teng, F., & Wang, S. (2025, June).</span><br>
