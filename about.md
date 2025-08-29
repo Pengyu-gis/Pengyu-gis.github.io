@@ -59,7 +59,7 @@ key: page-about
 Here is the PDF version: [CV](/Pengyu_Chen_CV.pdf)
 <br>
 
-*I'm happy to collaborate with anyone interested in GeoAI (Remote sensing, AI for Urban, etc) and Statistics (geospatial statistics, statistical physics, etc.). :D* <br>
+*I'm happy to collaborate with anyone interested in GeoAI (Deep learning in Remote sensing, AI for Urban, etc) and Statistics (geospatial statistics, statistical physics, etc.). :D* <br>
 
 ## Education
 
