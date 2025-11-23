@@ -160,8 +160,7 @@ tags: [Page]
 </style>
 
 <blockquote class="intro-quote">
-    "If you want to master something, teach it. The more you teach, the better you learn."
-    <footer>— Richard Feynman</footer>
+    "If you want to master something, teach it." — Richard Feynman
 </blockquote>
 
 <div class="course-card">
