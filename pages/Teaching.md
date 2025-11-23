@@ -1,6 +1,8 @@
 ---
-layout: article
-key: page-Teaching
+layout: page
+title: Teaching
+permalink: /teach/
+tags: [Page]
 ---
 
 
