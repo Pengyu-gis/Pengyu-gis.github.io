@@ -45,3 +45,6 @@ tags: [Page]
 2. “I really enjoyed the labs; he made it very interesting.”
 3. “He did a good job presenting material and answering questions.”
 4. “Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”
+
+<img width="800" height="720" alt="image" src="https://github.com/user-attachments/assets/e3ad4c7f-6e2a-46fc-92f3-f3d612d30ec3" />
+
