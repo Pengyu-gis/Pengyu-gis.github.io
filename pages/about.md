@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/wuhan.png"
 tags: [Page]
 ---
 
