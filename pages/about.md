@@ -150,8 +150,7 @@ tags: [Page]
 </style>
 
 <blockquote class="intro-quote">
-    一九二六，北伐兵兴，边隅之地，青年两个，墨盒为礼，寄语未来；惟不知抬头落款中的两个人，他们的后来，是否就达学问功名，是否完成…『伟大的人生』。
-    <footer>— 腰乐队 刘弢</footer>
+    一九二六，北伐兵兴，边隅之地，青年两个，墨盒为礼，寄语未来；惟不知抬头落款中的两个人，他们的后来，是否就达学问功名，是否完成…『伟大的人生』。— 腰乐队 刘弢
 </blockquote>
 
 <div class="contact-info">
@@ -169,8 +168,8 @@ tags: [Page]
 
 <a href="/Pengyu_Chen_CV.pdf" class="btn-cv">📄 Download Full CV (PDF)</a>
 
-<p style="color: #666; font-style: italic; margin-top: 10px;">
-    I'm happy to collaborate with anyone interested in GeoAI (Deep learning in Remote Sensing, AI for Urban) and Statistics (Geospatial Stats, Statistical Physics). :D <br>
+<p style="color: #666; font-style: margin-top: 12px;">
+    I'm happy to collaborate with anyone interested in GeoAI (Deep learning in Remote Sensing, AI for Good) and Statistics (Geospatial Statistics, Statistical Physics). :D <br>
     I'll start my Ph.D. at Virginia Tech in the fall of 2026.
 </p>
 
