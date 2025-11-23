@@ -191,23 +191,39 @@ tags: [Page]
             <a href="/assets/data/Fluvial_Processes_and_Landforms.pdf" class="btn-pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> PDF Slides</a>
         </li>
         <li style="margin-top: 20px; border-top: 1px dashed #eee; padding-top: 15px;">
-            <span class="material-name">📘 Midterm Review Session</span>
+            <span class="material-name">📘 Review Session</span>
             <a href="/assets/data/Review_GEOG201.pdf" class="btn-pdf" target="_blank"><i class="fa fa-file-text-o"></i> Review Doc</a>
         </li>
     </ul>
 </div>
 
 
-### Anonymous evaluations and feedback from students
+<div class="eval-section">
+    <h2>Anonymous Evaluations & Feedback</h2>
+    
+    <div class="score-box">
+        Fall 2024 Overall Instructor Score:
+        <span class="score-number">4.44 / 5.0</span>
+    </div>
 
-***24Fall Overall score: 4.439814648/5.0***
-
-**Selected Student Comments (both positive and constructive feedback):**
-
-1. “Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”
-2. “I really enjoyed the labs; he made it very interesting.”
-3. “He did a good job presenting material and answering questions.”
-4. “Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”
+    <h3>Selected Student Comments</h3>
+    <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">(Including positive and constructive feedback)</p>
+    
+    <div class="comment-grid">
+        <div class="student-comment">
+            <span class="comment-text">“Mr. Chen was a great TA! He helped me understand the material better. I will miss him.”</span>
+        </div>
+        <div class="student-comment">
+            <span class="comment-text">“I really enjoyed the labs; he made it very interesting.”</span>
+        </div>
+        <div class="student-comment">
+            <span class="comment-text">“He did a good job presenting material and answering questions.”</span>
+        </div>
+        <div class="student-comment" style="background: #fff3e0; border-color: #ffe0b2;">
+            <span class="comment-text">“Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”</span>
+        </div>
+    </div>
+</div>
 
 <div style="text-align: center; margin-top: 60px; margin-bottom: 40px; border-top: 1px dashed #eee; padding-top: 30px;">
     <p style="font-size: 0.9rem; color: #666; font-style: italic; margin-bottom: 15px;">
@@ -215,7 +231,7 @@ tags: [Page]
     </p>
         <img src="/assets/img/pexels/teachermemes.jpg" 
          alt="Teaching Meme" 
-         style="max-width: 350px; width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">      
+         style="max-width: 500px; width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">      
     <p style="font-size: 0.8rem; color: #aaa; margin-top: 5px;">(But... I love teaching. For real!)</p>
 </div>
 
