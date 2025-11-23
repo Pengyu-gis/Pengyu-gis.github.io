@@ -1,6 +1,8 @@
 ---
-layout: article
-key: page-Publications
+layout: page
+title: Publications
+permalink: /Publications/
+tags: [Page]
 ---
 
 <style>
