@@ -4,3 +4,7 @@
   url: https://example.com
   hide: true
   position: 2
+- GISphere:
+  title: GISphere
+  url: https://gisphere.info/
+  position: 1
