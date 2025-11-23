@@ -9,7 +9,7 @@ tags: [Page]
 <style>
     /* Global Clean Up */
     body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-family: Helvetica, sans-serif;
         color: #333;
         line-height: 1.6;
     }
