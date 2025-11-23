@@ -46,5 +46,5 @@ tags: [Page]
 3. “He did a good job presenting material and answering questions.”
 4. “Sometimes when we would ask questions, it would be difficult to get an answer that we could understand to grasp the material. But definitely knowledgeable on the subject!”
 
-<img width="800" height="720" alt="image" src="https://github.com/user-attachments/assets/e3ad4c7f-6e2a-46fc-92f3-f3d612d30ec3" />
+<img width="400" height="1125" alt="image" src="https://github.com/user-attachments/assets/2cfed522-f28c-419c-9d6c-db6936822022" />
 
