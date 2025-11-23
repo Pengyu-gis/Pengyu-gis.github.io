@@ -118,7 +118,7 @@ According to data from the **Nangqian County Public Security Bureau** (Yushu Cit
 * **Protected Species:** Tibetan brown bears are protected; methods that could harm them cannot be used.
 
 <figure>
-    <img src="https://github.com/Pengyu-gis/Pengyu-gis.github.io/assets/95490459/23083078-768a-4b2e-8b68-ad94c41474c0" class="content-img" alt="System Workflow" loading="lazy">
+    <img src="https://github.com/user-attachments/assets/68454118-bb09-4fa7-b1fd-09d851232e9e" class="content-img" alt="System Workflow" loading="lazy">
     <figcaption>The workflow of our automated detection and deterrent system.</figcaption>
 </figure>
 
