@@ -150,8 +150,8 @@ tags: [Page]
 </style>
 
 <blockquote class="intro-quote">
-    <p style="color: #666; font-style: margin-top: 10px;">
-        一九二六，北伐兵兴，边隅之地，青年两个，墨盒为礼，寄语未来；惟不知抬头落款中的两个人，他们的后来，是否就达学问功名，是否完成…『伟大的人生』。— 腰乐队 刘弢
+    <p style="color: #666; font-size: 0.85rem; margin-top: 10px;">
+    一九二六，北伐兵兴，边隅之地，青年两个，墨盒为礼，寄语未来；惟不知抬头落款中的两个人，他们的后来，是否就达学问功名，是否完成…『伟大的人生』。— 腰乐队 刘弢
     </p>
 </blockquote>
 
