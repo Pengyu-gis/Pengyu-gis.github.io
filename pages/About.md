@@ -172,7 +172,7 @@ tags: [Page]
 
 <p style="color: #666; font-style: margin-top: 13px;">
     <strong>I'm happy to collaborate with anyone interested in GeoAI (Deep learning in Remote Sensing, AI for Good) and Statistics (Geospatial Statistics, Statistical Physics). </strong>
-    <br>
+    <br> <br>
     <strong>I'll start my Ph.D. at Virginia Tech in the fall of 2026.</strong>
 </p>
 
