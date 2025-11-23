@@ -94,7 +94,7 @@ thumbnail: "assets/img/pexels/team_plateau.jpg"
 </div>
 
 <figure>
-    <img src="assets/img/pexels/team_plateau.jpg" class="content-img" alt="Team on Plateau">
+    <img src="/assets/img/pexels/team_plateau.jpg" class="content-img" alt="Team on Plateau">
     <figcaption>Our team deploying the system at 4,500m elevation.</figcaption>
 </figure>
 
