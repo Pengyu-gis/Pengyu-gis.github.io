@@ -97,20 +97,112 @@ tags: [Page]
         margin-right: 3px;
     }
 
-    /* Section Headers */
+    /* Section Header */
     h2.section-header {
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 20px;
-        border-left: 5px solid #4a90e2;
+        border-left: 5px solid #4a90e2; /* Matches your theme blue */
         padding-left: 15px;
         font-size: 1.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+    }
+
+    /* Interest List Container */
+    .interest-list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    /* Individual Item */
+    .interest-item {
+        display: flex;
+        align-items: flex-start; /* Aligns icon with top of text */
+        margin-bottom: 15px;
+        font-size: 1rem;
+        color: #444;
+        line-height: 1.5;
+    }
+
+    /* The Icon Box */
+    .interest-icon {
+        flex-shrink: 0;
+        width: 30px;
+        color: #4a90e2; /* Blue Icon */
+        font-size: 1.1rem;
+        margin-right: 10px;
+        text-align: center;
+        margin-top: 2px; /* Slight visual adjustment */
+    }
+
+    /* Bold Keywords */
+    .highlight-text {
+        font-weight: 600;
+        color: #2c3e50;
+    }
+
+    /* Scholar Button styling */
+    .scholar-box {
+        background-color: #f8f9fa;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .scholar-btn {
+        display: inline-block;
+        background-color: #4a90e2;
+        color: white !important; /* Force white text */
+        padding: 8px 20px;
+        border-radius: 25px;
+        text-decoration: none !important;
+        font-weight: 600;
+        margin-top: 5px;
+        transition: background 0.3s;
+    }
+    .scholar-btn:hover {
+        background-color: #357abd;
+        transform: translateY(-1px);
     }
 </style>
 
-<p>
-    If you are interested in my research, you can find more details on my 
-    <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=3Y9YVSIAAAAJ" style="font-weight: bold; color: #4a90e2;">Google Scholar Profile</a>.
-</p>
+<h2 class="section-header">Research Interests</h2>
+
+<div class="interest-list">
+    
+    <div class="interest-item">
+        <div class="interest-icon"><i class="fa fa-users"></i></div>
+        <div>
+            Applying <span class="highlight-text">deep learning and spatial statistics</span> to analyze human and environmental spatial behavior.
+        </div>
+    </div>
+
+    <div class="interest-item">
+        <div class="interest-icon"><i class="fa fa-globe"></i></div>
+        <div>
+            Leveraging AI in <span class="highlight-text">remote sensing</span> for environmental monitoring and conservation efforts.
+        </div>
+    </div>
+
+    <div class="interest-item">
+        <div class="interest-icon"><i class="fa fa-building"></i></div>
+        <div>
+            Integrating <span class="highlight-text">computer vision and multimodal data</span> analysis for urban sensing and planning.
+        </div>
+    </div>
+
+</div>
+
+<div class="scholar-box">
+    <p style="margin-bottom: 10px; font-style: italic; color: #666;">
+        Want to see the full list of papers?
+    </p>
+    <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=3Y9YVSIAAAAJ" class="scholar-btn" target="_blank">
+        <i class="fa fa-graduation-cap"></i> Visit Google Scholar Profile
+    </a>
+</div>
 
 <h2 class="section-header">Selected Publications</h2>
 
