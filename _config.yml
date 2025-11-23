@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://pengyu-gis.github.io/"
+url: "https://pengyu-gis.github.io/about/"
 
 # THEME-SPECIFIC CONFIGURATION
 title: PengYu(Andy) Chen                                   # site's title
@@ -9,7 +9,7 @@ description: "GIS, AI4Earth"      # used by search engines
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Welcome to Pengyu's Page  # Change Blog header text
+header_text: Welcome to Pengyu's Blog Page  # Change Blog header text
 header_feature_image: assets/img/patti.png
 header_feature_image_responsive: true
 footer_text: >
