@@ -5,7 +5,7 @@ url: "https://pengyu-gis.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 title: PengYu(Andy) Chen                                   # site's title
 description: "GIS, AI4Earth"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+# avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
