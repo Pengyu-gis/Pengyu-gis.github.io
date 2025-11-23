@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "pengyu-gis"
+baseurl: ""
 url: "https://pengyu-gis.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
@@ -13,7 +13,7 @@ header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Chan
 header_feature_image: assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
