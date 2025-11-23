@@ -1,0 +1,109 @@
+name: Tests
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  e2e-tests:
+    name: E2E Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chromium, firefox, webkit]
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+        
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build
+          ls -la _site/
+        env:
+          JEKYLL_ENV: production
+          
+      - name: Install test dependencies
+        run: |
+          cd .github/tests
+          npm i
+          
+      - name: Install Playwright browsers
+        run: |
+          cd .github/tests
+          npx playwright install --with-deps ${{ matrix.browser }}
+          
+      - name: Run E2E tests
+        run: |
+          cd .github/tests
+          npx playwright test --project=${{ matrix.browser }}
+        env:
+          CI: true
+          BASE_URL: http://localhost:4000
+          
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results-${{ matrix.browser }}
+          path: .github/tests/test-results/
+          retention-days: 7
+          
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.browser }}
+          path: .github/tests/playwright-report/
+          retention-days: 7
+
+  unit-tests:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          
+      - name: Install test dependencies
+        run: |
+          cd .github/tests
+          npm i
+          
+      - name: Run unit tests
+        run: |
+          cd .github/tests
+          npm run test:unit
+          
+      - name: Upload coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: .github/tests/coverage/
+          retention-days: 7
+
+

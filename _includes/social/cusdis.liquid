@@ -1,0 +1,13 @@
+<div class="comments" id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="{% if site.data.comments.cusdis.app_id %}{{ site.data.comments.cusdis.app_id }}{% elsif site.comments.cusdis_app_id %}{{ site.comments.cusdis_app_id }}{% else %}{{ site.cusdis_app_id }}{% endif %}"
+  data-page-id="{{ page.relative_path }}"
+  data-page-url="{{ page.url | absolute_url }}"
+  data-page-title="{{ page.title }}"
+  data-theme="{{ site.color_theme }}"
+  data-lazy-load="true"
+  {% if site.data.comments.cusdis.lang or site.data.language.cusdis_lang %}
+  data-lang="{% if site.data.comments.cusdis.lang %}{{ site.data.comments.cusdis.lang }}{% else %}{{ site.data.language.cusdis_lang }}{% endif %}"
+  {% endif %}
+></div>
+<script defer src="{{ '/assets/js/comments-lazy-load.min.js' | relative_url }}"></script>

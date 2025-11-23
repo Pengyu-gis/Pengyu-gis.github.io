@@ -1,0 +1,22 @@
+{% assign categories = include.categories | split:'|' | sort | uniq %}
+
+{% if categories.size > 0 %}
+  <div class="category-list" data-testid="category-list">
+    <ul>
+      {% if categories.size == 1 %}
+        <li class="meta">Category</li>
+      {% else %}
+        <li class="meta">Categories</li>
+      {% endif %}
+
+      {% for category in categories %}
+        <li><a class="button" data-testid="category-link" href="{{ site.baseurl }}/categories#{{ category | cgi_escape }}">
+          <p><i class="fas fa-folder fa-fw fa-sm"></i> {{ category }}</p>
+        </a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% else %}
+  <div class="category-list"></div>
+{% endif %}
+

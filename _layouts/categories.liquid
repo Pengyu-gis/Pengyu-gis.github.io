@@ -1,0 +1,105 @@
+---
+layout: page
+---
+
+<div class="home">
+    <div id="categories">
+        <section class="bg"></section>
+        <div class="category-list">
+            <p class="category-links">
+                {% for category in site.categories %}
+                    <a href="#{{ category | first | cgi_escape }}" class="category-link">{{ category | first }}</a> {{ category | last | size }}{% unless forloop.last %}<span class="separator"> / </span>{% endunless %}
+                {% endfor %}
+
+                {% assign uncategorized_count = 0 %}
+                {% for post in site.posts %}
+                    {% if post.categories.size == 0 %}
+                        {% assign uncategorized_count = uncategorized_count | plus: 1 %}
+                    {% endif %}
+                {% endfor %}
+                {% if uncategorized_count > 0 %}
+                    <span class="separator"> / </span>
+                    <a href="#uncategorized" class="category-link">Uncategorized</a> {{ uncategorized_count }}
+                {% endif %}
+            </p>
+        </div>
+        <div class="category-groups">
+            {% for category in site.categories %}
+                <div class="category-group">
+                    {% capture group %}{{ category | first }}{% endcapture %}
+                    <h4 id="{{ group }}" class="title">
+                        {{ group }}
+                        {% if page.showCounts %}
+                            ({{site.categories[group].size}})
+                        {% endif %}
+                    </h4>
+                    <div class="items">
+                        {% for post in site.categories[group] %}
+                            <div class="item-wrapper">
+                                <a href="{{ post.url | relative_url }}" class="category-post-link">
+                                    <div class="item">
+                                        <div class="item-content">
+                                            <p class="meta">{{ post.date | date: site.data.language.str_date_format | default: '%B %-d, %Y' }}</p>
+                                            <p class="title">{{ post.title }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                {% if post.tags.size > 0 %}
+                                    <div class="item-tags">
+                                        {% for tag in post.tags %}
+                                            <a href="{{ site.baseurl }}/tags#{{ tag | cgi_escape }}" class="tag-link">
+                                                <span class="tag">{{ tag }}</span>
+                                            </a>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+
+            <!-- Uncategorized posts -->
+            {% assign uncategorized_posts = "" | split: "" %}
+            {% for post in site.posts %}
+                {% if post.categories.size == 0 %}
+                    {% assign uncategorized_posts = uncategorized_posts | push: post %}
+                {% endif %}
+            {% endfor %}
+
+            {% if uncategorized_posts.size > 0 %}
+                <div class="category-group">
+                    <h4 id="uncategorized" class="title">
+                        Uncategorized
+                        {% if page.showCounts %}
+                            ({{uncategorized_posts.size}})
+                        {% endif %}
+                    </h4>
+                    <div class="items">
+                        {% for post in uncategorized_posts %}
+                            <div class="item-wrapper">
+                                <a href="{{ post.url | relative_url }}" class="category-post-link">
+                                    <div class="item">
+                                        <div class="item-content">
+                                            <p class="meta">{{ post.date | date: site.data.language.str_date_format | default: '%B %-d, %Y' }}</p>
+                                            <p class="title">{{ post.title }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                {% if post.tags.size > 0 %}
+                                    <div class="item-tags">
+                                        {% for tag in post.tags %}
+                                            <a href="{{ site.baseurl }}/tags#{{ tag | cgi_escape }}" class="tag-link">
+                                                <span class="tag">{{ tag }}</span>
+                                            </a>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

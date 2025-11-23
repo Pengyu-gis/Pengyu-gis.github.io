@@ -1,0 +1,133 @@
+#archive,
+#categories {
+  .category-list {
+    width: 100%;
+    padding-bottom: $padding-x-small;
+    text-align: center;
+
+    .category-links {
+      margin: 30px 0;
+      color: var(--meta);
+      font-size: 0.9em;
+    }
+
+    .category-link {
+      color: var(--meta);
+      text-decoration: underline;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--link);
+        text-decoration: underline;
+      }
+    }
+
+    .separator {
+      color: var(--meta);
+    }
+  }
+
+  .archive-group,
+  .category-group {
+    padding: 15px 0 10px;
+
+    .title {
+      margin-bottom: 10px;
+    }
+
+    .items {
+      padding-left: $padding-medium;
+
+      .item-wrapper {
+        position: relative;
+        margin: 25px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .category-post-link {
+        flex: 1;
+        min-width: 0;
+        text-decoration: none;
+      }
+
+      .item {
+        .item-content {
+          flex: 1;
+          min-width: 0;
+        }
+
+        .meta {
+          color: var(--meta);
+          font-size: 0.85rem;
+        }
+
+        .title {
+          font-weight: 600;
+          color: var(--text);
+        }
+      }
+
+      .item-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-end;
+
+        .tag-link {
+          text-decoration: none;
+        }
+
+        .tag {
+          background-color: var(--selection);
+          color: var(--text);
+          padding: 3px 10px;
+          border-radius: 12px;
+          font-size: 0.75rem;
+          font-weight: 500;
+          white-space: nowrap;
+          transition: background-color 0.2s ease, color 0.2s ease, border 0.2s ease;
+          cursor: pointer;
+          border: 1px solid transparent;
+        }
+      }
+
+      .item-wrapper::before {
+        content: "";
+        position: absolute;
+        left: -5%;
+        width: 8px;
+        background-color: var(--selection);
+        border-radius: 8px;
+        height: 100%;
+      }
+
+      .item-wrapper:hover::before {
+        background-color: var(--link);
+      }
+
+      .category-post-link:hover {
+        text-decoration: none;
+
+        .meta, .title {
+          color: var(--link);
+        }
+      }
+
+      .item-wrapper:hover .tag {
+        background-color: var(--link);
+        color: var(--header-text);
+        border-color: transparent;
+      }
+
+      .item-wrapper:hover .tag:hover {
+        background-color: var(--page-background);
+        color: var(--link);
+        border-color: var(--link);
+      }
+    }
+  }
+}

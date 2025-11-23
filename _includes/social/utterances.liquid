@@ -1,0 +1,8 @@
+<div id="utterances_thread"
+  data-lazy-load="true"
+  data-repo="{% if site.data.comments.utterances.repo %}{{ site.data.comments.utterances.repo }}{% else %}{{ site.comments.utterances.repo }}{% endif %}"
+  data-issue-term="{% if site.data.comments.utterances.issue-term %}{{ site.data.comments.utterances.issue-term }}{% else %}{{ site.comments.utterances.issue-term }}{% endif %}"
+  data-theme="{% if site.data.comments.utterances.theme %}{{ site.data.comments.utterances.theme }}{% elsif site.comments.utterances.theme %}{{ site.comments.utterances.theme }}{% elsif site.color_theme == 'dark' %}github-dark{% else %}github-light{% endif %}"
+  {% if site.data.comments.utterances.label or site.comments.utterances.label %}data-label="{% if site.data.comments.utterances.label %}{{ site.data.comments.utterances.label }}{% else %}{{ site.comments.utterances.label }}{% endif %}"{% endif %}
+></div>
+<script defer src="{{ '/assets/js/comments-lazy-load.min.js' | relative_url }}"></script>

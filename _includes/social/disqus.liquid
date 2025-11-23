@@ -1,0 +1,7 @@
+<div class="comments" id="disqus_thread"
+  data-lazy-load="true"
+  data-shortname="{% if site.data.comments.disqus.shortname %}{{ site.data.comments.disqus.shortname }}{% elsif site.comments.disqus_shortname %}{{ site.comments.disqus_shortname }}{% else %}{{ site.disqus_shortname }}{% endif %}"
+>
+  <noscript>{{ site.data.language.str_javascript_required_disqus | default: "Please enable JavaScript to view comments." }}</noscript>
+</div>
+<script defer src="{{ '/assets/js/comments-lazy-load.min.js' | relative_url }}"></script>
