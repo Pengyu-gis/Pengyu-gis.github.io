@@ -2,8 +2,8 @@
 layout: post
 title: "Intelligent Bear Protection System on the Tibetan Plateau"
 tags: [Computer-Vision, IoT, Conservation]
-feature-img: "assets/img/projects/team_plateau.jpg"
-thumbnail: "assets/img/projects/team_plateau.jpg"
+feature-img: "assets/img/pexels/team_plateau.jpg"
+thumbnail: "assets/img/pexels/team_plateau.jpg"
 ---
 
 <style>
@@ -94,7 +94,7 @@ thumbnail: "assets/img/projects/team_plateau.jpg"
 </div>
 
 <figure>
-    <img src="/assets/img/projects/team_plateau.jpg" class="content-img" alt="Team on Plateau" loading="lazy">
+    <img src="assets/img/pexels/team_plateau.jpg" class="content-img" alt="Team on Plateau" loading="lazy">
     <figcaption>Our team deploying the system at 4,500m elevation.</figcaption>
 </figure>
 
