@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
+baseurl: "pengyu-gis"
 url: "https://pengyu-gis.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
