@@ -147,6 +147,51 @@ tags: [Page]
     .timeline-item a:hover {
         border-bottom: 1px solid #4a90e2;
     }
+        /* Gallery Grid */
+    .advisor-section {
+        margin-top: 50px;
+    }
+    .advisor-grid {
+        display: flex;
+        justify-content: space-between; /* Spreads them out evenly */
+        gap: 20px;
+        flex-wrap: wrap; /* Stacks them on mobile */
+    }
+    
+    /* Individual Card */
+    .advisor-card {
+        flex: 1;             /* Each card takes equal width */
+        min-width: 250px;    /* Prevents them from getting too skinny */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Image Styling */
+    .advisor-img {
+        width: 100%;
+        height: 300px;       /* Forces all photos to be the same height */
+        object-fit: cover;   /* Crops the image so it doesn't stretch/distort */
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        border: 1px solid #eee;
+        transition: transform 0.3s;
+    }
+    .advisor-img:hover {
+        transform: translateY(-5px); /* Slight lift effect on hover */
+    }
+
+    /* Captions */
+    .advisor-name {
+        margin-top: 12px;
+        font-weight: 700;
+        color: #2c3e50;
+        font-size: 1.1rem;
+    }
+    .advisor-role {
+        font-size: 0.9rem;
+        color: #777;
+        font-style: italic;
+    }
 </style>
 
 <blockquote class="intro-quote">
@@ -278,6 +323,32 @@ tags: [Page]
                 <li>Developed backend using Django REST Framework; connected to MySQL.</li>
                 <li>Built front-end with Vue; managed user demand pool.</li>
             </ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="advisor-section">
+    <h2 class="section-header">📸 Me & My Advisors</h2>
+    
+    <div class="advisor-grid">
+
+        <div class="advisor-card">
+            <img src="/assets/img/sicheng.jpg" alt="Dr. Sicheng Wang" class="advisor-img" loading="lazy">
+            <div class="advisor-name">Dr. Sicheng Wang</div>
+            <div class="advisor-role">Current MS Advisor (USC)</div>
+        </div>
+
+        <div class="advisor-card">
+            <img src="/assets/img/tengfei.jpg" alt="Prof. Teng Fei" class="advisor-img" loading="lazy">
+            <div class="advisor-name">Prof. Teng Fei</div>
+            <div class="advisor-role">Visiting Advisor (Wuhan Univ)</div>
+        </div>
+
+        <div class="advisor-card">
+            <img src="/assets/img/cuiwei.jpg" alt="Prof. Wei Cui" class="advisor-img" loading="lazy">
+            <div class="advisor-name">Prof. Wei Cui</div>
+            <div class="advisor-role">Undergrad Advisor (WUT)</div>
         </div>
 
     </div>
