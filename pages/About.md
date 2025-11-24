@@ -207,8 +207,6 @@ tags: [Page]
             Advisor: <a href="https://baike.baidu.com/item/%E5%B4%94%E5%B7%8D/7542643">Prof. Wei Cui</a></p>
         </div>
 
-During my last year of my undergraduate, I spent a whole year at Wuhan University as a visting student, The lovely and handsome advisor is: <a href="https://only4john.github.io/">Prof. Teng Fei</a></p>
-
     </div>
 </div>
 
