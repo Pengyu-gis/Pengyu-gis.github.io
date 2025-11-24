@@ -303,6 +303,19 @@ tags: [Page]
     </div>
 </div>
 
+
+<div class="timeline-item">
+            <div class="role">Algorithm Intern</div>
+            <div class="institution">Xuzhou Construction Machinery Group (XCMG)</div>
+            <div class="date-location">Jan 2022 – Mar 2022 | Xuzhou, China</div>
+            <ul>
+                <li>Developed digital roads using Leica software and presented results with ArcGIS.</li>
+                <li>Implemented curve fitting algorithms to support digital road modeling applications.</li>
+            </ul>
+            <p>Supervisor: Mr. Bowen Wu</p>
+</div>
+
+
 <div class="timeline-section">
     <h2>Teaching & Leadership</h2>
     <div class="timeline">
@@ -327,6 +340,8 @@ tags: [Page]
 
     </div>
 </div>
+
+
 
 <div class="advisor-section">
     <h2 class="section-header">📸 Me & My Advisors</h2>
