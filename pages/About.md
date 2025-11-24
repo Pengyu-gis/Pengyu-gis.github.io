@@ -256,7 +256,7 @@ tags: [Page]
 </div>
 
 <div class="timeline-section">
-    <h2>Research Experience</h2>
+    <h2>Research and Professional Experience</h2>
     <div class="timeline">
 
         <div class="timeline-item">
@@ -299,20 +299,18 @@ tags: [Page]
             </ul>
             <p>Supervisor: Dr. Chao Fan</p>
         </div>
-
+        
+        <div class="timeline-item">
+                    <div class="role">Algorithm Intern</div>
+                    <div class="institution">Xuzhou Construction Machinery Group (XCMG)</div>
+                    <div class="date-location">Jan 2022 – Mar 2022 | Xuzhou, China</div>
+                    <ul>
+                        <li>Developed digital roads using Leica software and presented results with ArcGIS.</li>
+                        <li>Implemented curve fitting algorithms to support digital road modeling applications.</li>
+                    </ul>
+                    <p>Supervisor: Mr. Bowen Wu</p>
+        </div>
     </div>
-</div>
-
-
-<div class="timeline-item">
-            <div class="role">Algorithm Intern</div>
-            <div class="institution">Xuzhou Construction Machinery Group (XCMG)</div>
-            <div class="date-location">Jan 2022 – Mar 2022 | Xuzhou, China</div>
-            <ul>
-                <li>Developed digital roads using Leica software and presented results with ArcGIS.</li>
-                <li>Implemented curve fitting algorithms to support digital road modeling applications.</li>
-            </ul>
-            <p>Supervisor: Mr. Bowen Wu</p>
 </div>
 
 
