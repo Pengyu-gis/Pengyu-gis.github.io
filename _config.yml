@@ -3,8 +3,8 @@ baseurl: ""
 url: "https://pengyu-gis.github.io/about/"
 
 # THEME-SPECIFIC CONFIGURATION
-title: PengYu(Andy) Chen                                   # site's title
-description: "GIS, AI4Earth"      # used by search engines
+title: Pengyu Chen | 陈鹏宇                                   # site's title
+description: "GIS, AI4Earth, AI4Good"      # used by search engines
 # avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
