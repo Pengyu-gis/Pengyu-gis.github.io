@@ -150,7 +150,7 @@ tags: [Page]
 </style>
 
 <blockquote class="intro-quote">
-    <p style="color: #666; font-size: 1.2rem; margin-top: 10px;">
+    <p style="color: #666; font-size: 1rem; margin-top: 10px;">
     一九二六，北伐兵兴，边隅之地，青年两个，墨盒为礼，寄语未来；惟不知抬头落款中的两个人，他们的后来，是否就达学问功名，是否完成…『伟大的人生』。— 腰乐队 刘弢
     </p>
 </blockquote>
@@ -173,7 +173,7 @@ tags: [Page]
 <p style="color: #666; font-style: margin-top: 13px;">
     <strong>I'm happy to collaborate with anyone interested in GeoAI (Deep learning in Remote Sensing, AI for Good) and Statistics (Geospatial Statistics, Statistical Physics). </strong>
     <br> <br>
-    <strong>I'll start my Ph.D. at Virginia Tech in the fall of 2026.</strong>
+    <strong>I'll start my Ph.D. at Virginia Tech in the fall of 2026.🌹</strong>
 </p>
 
 <div class="timeline-section">
@@ -192,12 +192,22 @@ tags: [Page]
         </div>
 
         <div class="timeline-item">
+            <div class="role">Visiting Student</div>
+            <div class="institution">Wuhan University</div>
+            <div class="date-location">July 2023 – July 2024 | Wuhan, China</div>
+            <p>During the last year of my undergraduate studies, I spent a whole year here as a visiting student.</p>
+            <p>The lovely and handsome advisor is: <a href="https://only4john.github.io/">Prof. Teng Fei</a></p>
+        </div>
+
+        <div class="timeline-item">
             <div class="role">B.S. in Geographic Information Science</div>
             <div class="institution">Wuhan University of Technology</div>
             <div class="date-location">Sept 2020 – June 2024 | Wuhan, China</div>
             <p>Thesis: <em>Transformer-based geographic scene description</em><br>
             Advisor: <a href="https://baike.baidu.com/item/%E5%B4%94%E5%B7%8D/7542643">Prof. Wei Cui</a></p>
         </div>
+
+During my last year of my undergraduate, I spent a whole year at Wuhan University as a visting student, The lovely and handsome advisor is: <a href="https://only4john.github.io/">Prof. Teng Fei</a></p>
 
     </div>
 </div>
