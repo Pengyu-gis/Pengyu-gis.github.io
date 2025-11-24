@@ -336,7 +336,7 @@ tags: [Page]
         <div class="advisor-card">
             <img src="/assets/img/sicheng.jpg" alt="Dr. Sicheng Wang" class="advisor-img" loading="lazy">
             <div class="advisor-name">Dr. Sicheng Wang</div>
-            <div class="advisor-role">Current MS Advisor (USC)</div>
+            <div class="advisor-role">Master Advisor (USC)</div>
         </div>
 
         <div class="advisor-card">
